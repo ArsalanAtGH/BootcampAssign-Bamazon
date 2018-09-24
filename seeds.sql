@@ -1,5 +1,5 @@
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("dining table", "Furniture", 649.99, 25);
+VALUES ("dining table", "Furniture", 649.99, 4);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("coffee table", "Furniture", 44.99, 60);
@@ -8,7 +8,7 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("leather sofa", "Furniture", 549.99, 20);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("MacBook Pro", "Electronics", 3200.00, 35);
+VALUES ("MacBook Pro", "Electronics", 3200.00, 3);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("iPhone X", "Electronics", 1200.00, 70);
