@@ -40,20 +40,57 @@ function startApp() {
                         addToInv(res);
                         break;
                     case "Add New Product":
-                        console.log("D");
+                        addNewItem(res);
                         break;
                 }
             });
     });
 }
 
+function addNewItem() {
+    inquirer
+        .prompt([{
+            name: "itemName",
+            type: "text",
+            message: "Please enter the product's NAME:"
+        }, {
+            name: "itemDept",
+            type: "text",
+            message: "Please enter the product's DEPARTMENT:"
+        }, {
+            name: "itemPrice",
+            type: "text",
+            message: "Please enter the product's PRICE:"
+        }, {
+            name: "itemCount",
+            type: "text",
+            message: "Please enter the product's COUNT:"
+        }])
+        .then(function (answer) {
+            if (parseInt(answer.itemCount) > 0) {
+                connection.query(
+                    "INSERT INTO bamazon.products SET ?", {
+                        product_name: answer.itemName,
+                        department_name: answer.itemDept,
+                        price: answer.itemPrice,
+                        stock_quantity: answer.itemCount
+                    },
+                    function (err, res) {
+                        if (err) throw err;
+                        console.log(res.affectedRows + " product inserted!\n");
+                        startApp();
+                    }
+                );
+            }
+        });
+}
 
 function addToInv(res) {
     inquirer
         .prompt([{
             name: "itemID",
             type: "text",
-            message: "Please enter the product's ID you wish to add more to the stock?"
+            message: "Please enter the product's ID you wish to add more to the stock:"
         }, {
             name: "itemCount",
             type: "text",
