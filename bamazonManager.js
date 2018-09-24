@@ -24,7 +24,7 @@ function startApp() {
         inquirer
             .prompt([{
                 type: "list",
-                message: "Please choose an option:",
+                message: "PLEASE CHOOSE AN OPTION:",
                 choices: ["View Products for Sale", "View Low Inventory", "Add to Inventory", "Add New Product"],
                 name: "whatToDo"
             }])
@@ -37,7 +37,7 @@ function startApp() {
                         displayLowInv(res)
                         break;
                     case "Add to Inventory":
-                        console.log("C");
+                        addToInv(res);
                         break;
                     case "Add New Product":
                         console.log("D");
@@ -47,8 +47,42 @@ function startApp() {
     });
 }
 
-function addToInv() {
-    
+
+function addToInv(res) {
+    inquirer
+        .prompt([{
+            name: "itemID",
+            type: "text",
+            message: "Please enter the product's ID you wish to add more to the stock?"
+        }, {
+            name: "itemCount",
+            type: "text",
+            message: "How many items would you like to add more?"
+        }])
+        .then(function (answer) {
+            res.forEach(function (element) {
+                if ((element.id === parseInt(answer.itemID)) && (parseInt(answer.itemCount) > 0)) {
+                    var newStock = element.stock_quantity + parseInt(answer.itemCount);
+                    connection.query(
+                        "UPDATE bamazon.products SET ? WHERE ?",
+                        [{
+                                stock_quantity: newStock
+                            },
+                            {
+                                id: parseInt(answer.itemID)
+                            }
+                        ],
+                        function (err) {
+                            if (err) throw err;
+                            console.log("\n>>>>>>>>>>  Items were added successfully!  <<<<<<<<<<\n");
+                            startApp();
+                        }
+                    );
+
+                }
+            });
+
+        });
 }
 
 function displayLowInv(res) {
@@ -76,47 +110,4 @@ function displayProducts(res) {
     output = table(data);
     console.log(output);
     startApp();
-}
-
-function takeOrder(res) {
-    inquirer
-        .prompt([{
-            name: "itemID",
-            type: "text",
-            message: "What is the ID of the product you would like to buy?"
-        }, {
-            name: "itemCount",
-            type: "text",
-            message: "How many would you like to buy?"
-        }])
-        .then(function (answer) {
-            res.forEach(function (element) {
-                if (element.id === parseInt(answer.itemID)) {
-                    if (parseInt(answer.itemCount) > element.stock_quantity) {
-                        console.log("\n********  Insufficient quantity!  ********\n");
-                        takeOrder(res);
-                    } else {
-                        var newStock = element.stock_quantity - parseInt(answer.itemCount);
-                        connection.query(
-                            "UPDATE bamazon.products SET ? WHERE ?",
-                            [{
-                                    stock_quantity: newStock
-                                },
-                                {
-                                    id: parseInt(answer.itemID)
-                                }
-                            ],
-                            function (err) {
-                                if (err) throw err;
-                                console.log("\n>>>>>>>>>>  Order placed successfully!  <<<<<<<<<<\n");
-                                var granTotal = parseInt(answer.itemCount) * element.price;
-                                console.log(">>>>>>>>>>  Your grand total is: $" + granTotal + "  <<<<<<<<<<\n");
-                                startApp();
-                            }
-                        );
-                    }
-                }
-            });
-
-        });
 }
