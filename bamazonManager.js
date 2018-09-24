@@ -37,7 +37,7 @@ function startApp() {
                         displayLowInv(res)
                         break;
                     case "Add to Inventory":
-                        addToInv(res);
+                        addItemCount(res);
                         break;
                     case "Add New Product":
                         addNewItem(res);
@@ -85,7 +85,7 @@ function addNewItem() {
         });
 }
 
-function addToInv(res) {
+function addItemCount(res) {
     inquirer
         .prompt([{
             name: "itemID",
