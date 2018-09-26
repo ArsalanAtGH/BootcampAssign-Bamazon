@@ -1,5 +1,6 @@
-# :link: My GitHub Page
+# :link: Me on GitHub
 Please click [here](https://arsalanatgh.github.io/) to navigate to my personal page on GitHUb.
+Please click [here](https://arsalanatgh.github.io/) to navigate to my profile on GitHUb.
 
 # :tv: Demo
 Please click [here](https://youtu.be/jGRjsO4kqg4) to see a demo of this Node.js application!
