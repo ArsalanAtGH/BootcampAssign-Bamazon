@@ -1,7 +1,7 @@
 # :link: Me on GitHub
-* Please click [here](https://arsalanatgh.github.io/) to navigate to my personal page.
+* Please click [here](https://arsalanatgh.github.io) to navigate to my personal page.
 
-* Please click [here](https://arsalanatgh.github.io/) to navigate to my profile.
+* Please click [here](https://github.com/ArsalanAtGH) to navigate to my profile.
 
 # :tv: Demo
 * Please click [here](https://youtu.be/jGRjsO4kqg4) to see a demo of this Node.js application!
