@@ -6,6 +6,12 @@
 # :tv: Demo
 * Please click [here](https://youtu.be/jGRjsO4kqg4) to see a demo of this Node.js application!
 
+# :wrench: Tools
+* Editor: `Visual Studio Code`
+* DB Server: `MySQL`
+* Runtime Environment: `Node.js`
+* Packages: `inquirer`, `mysql`, `table`
+
 # :page_with_curl: Description
 * A node.js console application
 * 2 main apps: `bamazonCustomer.js` and `bamazonManager.js`
