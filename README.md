@@ -1,6 +1,5 @@
 # :link: Me on GitHub
 * Please click [here](https://arsalanatgh.github.io) to navigate to my personal page.
-
 * Please click [here](https://github.com/ArsalanAtGH) to navigate to my profile.
 
 # :tv: Demo
