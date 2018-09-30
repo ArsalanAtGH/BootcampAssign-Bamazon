@@ -6,10 +6,12 @@
 # :tv: Demo
 * Please click [here](https://youtu.be/jGRjsO4kqg4) to see a demo of this Node.js application!
 
-# :wrench: Tools
+# :wrench: Tools and Technologies
 * Editor: `Visual Studio Code`
+* Languages: `(vanilla) JavaScript`
 * DB Server: `MySQL`
 * Runtime Environment: `Node.js`
+* Package Manager: `npm`
 * Packages: `inquirer`, `mysql`, `table`
 
 # :page_with_curl: Description
