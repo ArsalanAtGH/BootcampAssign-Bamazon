@@ -11,7 +11,7 @@
 * DB Server: `MySQL`
 * Runtime Environment: `Node.js`
 * Package Manager: `npm`
-* Packages: `inquirer`, `mysql`, `table`
+* Modules: `inquirer`, `mysql`, `table`
 
 # :page_with_curl: Description
 * A node.js console application
