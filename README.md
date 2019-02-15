@@ -4,6 +4,10 @@
 * My [portfolio](https://arsalanatgh.github.io)
   * Deployed projects
 
+# :page_with_curl: Description
+* A node.js console application
+* 2 main apps: `bamazonCustomer.js` and `bamazonManager.js`
+
 # :tv: Demo
 * To see a demo of this application, click [here](https://youtu.be/jGRjsO4kqg4) 
 
@@ -14,10 +18,6 @@
 * Runtime Environment: `Node.js`
 * Package Manager: `npm`
 * Modules: `inquirer`, `mysql`, `table`
-
-# :page_with_curl: Description
-* A node.js console application
-* 2 main apps: `bamazonCustomer.js` and `bamazonManager.js`
 
 # :arrow_forward: How to Run
 1. **Clone down** the application to your local device.
