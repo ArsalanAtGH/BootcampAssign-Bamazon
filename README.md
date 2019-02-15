@@ -1,6 +1,8 @@
 # :link: Me on GitHub
-* My [portfolio](https://arsalanatgh.github.io)
 * My [profile](https://github.com/ArsalanAtGH)
+  * Repositories, pull requests, commits, and...
+* My [portfolio](https://arsalanatgh.github.io)
+  * Deployed projects
 
 # :tv: Demo
 * Please click [here](https://youtu.be/jGRjsO4kqg4) to see a demo of this Node.js application!
