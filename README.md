@@ -5,7 +5,7 @@
   * Deployed projects
 
 # :tv: Demo
-* Please click [here](https://youtu.be/jGRjsO4kqg4) to see a demo of this Node.js application!
+* To see a demo of this application, click [here](https://youtu.be/jGRjsO4kqg4) 
 
 # :wrench: Tools and Technologies
 * Editor: `Visual Studio Code`
