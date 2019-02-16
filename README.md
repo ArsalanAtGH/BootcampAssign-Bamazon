@@ -8,10 +8,7 @@
 * A node.js console application
 * 2 main apps: `bamazonCustomer.js` and `bamazonManager.js`
 
-# :tv: Demo
-* To see a demo of this application, click [here](https://youtu.be/jGRjsO4kqg4) 
-
-# :wrench: Tools and Technologies
+# :nut_and_bolt: Tools and Technologies
 * Editor: `Visual Studio Code`
 * Languages: `(vanilla) JavaScript`
 * DB Server: `MySQL`
@@ -19,7 +16,14 @@
 * Package Manager: `npm`
 * Modules: `inquirer`, `mysql`, `table`
 
-# :arrow_forward: How to Run
+# :arrow_forward: Deployed application
+* [Deployed application]() via GitHub Pages directly from the depository
+
+
+# :tv: Demo
+* To see a demo of this application, click [here](https://youtu.be/jGRjsO4kqg4) 
+
+# :wrench: How to Run
 1. **Clone down** the application to your local device.
 2. **Install the packages** specified in `package.json`.
 3. Get your **database** up and running.
