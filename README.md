@@ -5,7 +5,9 @@
   * Deployed projects
 
 # :page_with_curl: Description
-* A node.js console application
+* A Node.js console application simulating an inventory of miscellaneous items.
+* Items are stred in MySQL database and illustrated in a table to customers and managers (a screenshot given below).
+* Inventory can be updated and items can be added to and removed from database through command line (console).
 
 <img src="Docs/Images/inventory_table.png" width="600" height="500">
 
