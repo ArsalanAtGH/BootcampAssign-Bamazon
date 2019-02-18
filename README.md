@@ -9,7 +9,9 @@
 
 <img src="Docs/Images/inventory_table.png" width="600" height="500">
 
-* 2 main apps: `bamazonCustomer.js` and `bamazonManager.js`
+* 2 functionalities:
+  * If you wish to see it as a customer: `bamazonCustomer.js`
+  * If you wish to see it as a manager: `bamazonManager.js`
 
 # :nut_and_bolt: Tools and Technologies
 * Editor: `Visual Studio Code`
@@ -31,12 +33,9 @@
 2. **Install the packages** specified in `package.json`.
 3. Get your **database** up and running.
     1. Start MySQL server
-       * On Mac: Open **Spotlight Search**, type in **mysql**, then choose **mysql.prefPane**,
-       enter your password, and finally hit **Start MySQL Server**
     2. Create schema using `schema.sql`
     3. Add data to your database using `seeds.sql`
     4. Modify port, user, and password in the corresponding `.js` to reflect your credential.
 4. Open **terminal** (on mac)
-5. If you wish to see it as a customer, **run** `$ node bamazonCustomer.js` and 
-if you wish to see it as a manager, then **run** `$ node bamazonManager.js`.
+5. **run** `$ node bamazonCustomer.js` or `$ node bamazonManager.js`, depending on what you wish to do.
 6. **Follow instructions** on the console.
