@@ -6,6 +6,7 @@
 
 # :page_with_curl: Description
 * A node.js console application
+![](Docs/Images/inventory_table.png)
 * 2 main apps: `bamazonCustomer.js` and `bamazonManager.js`
 
 # :nut_and_bolt: Tools and Technologies
