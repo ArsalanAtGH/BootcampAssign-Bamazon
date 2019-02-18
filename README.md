@@ -7,7 +7,7 @@
 # :page_with_curl: Description
 * A node.js console application
 
-<img src="Docs/Images/inventory_table.png" width="700" height="600">
+<img src="Docs/Images/inventory_table.png" width="600" height="500">
 
 ![](Docs/Images/inventory_table.png)
 
