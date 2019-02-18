@@ -7,7 +7,10 @@
 # :page_with_curl: Description
 * A node.js console application
 
+<img src="Docs/Images/inventory_table.png" width="300" height="200">
+
 ![](Docs/Images/inventory_table.png)
+
 * 2 main apps: `bamazonCustomer.js` and `bamazonManager.js`
 
 # :nut_and_bolt: Tools and Technologies
