@@ -33,6 +33,8 @@
 2. **Install the packages** specified in `package.json`.
 3. Get your **database** up and running.
    1. Start MySQL server
+      * On Mac: Open **Spotlight Search**, type in **mysql**, then choose **mysql.prefPane**,
+       enter your password, and finally hit **Start MySQL Server**
    2. Create schema using `schema.sql`
    3. Add data to your database using `seeds.sql`
    4. Modify port, user, and password in the corresponding `.js` to reflect your credential.
