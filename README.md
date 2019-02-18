@@ -27,9 +27,13 @@
 1. **Clone down** the application to your local device.
 2. **Install the packages** specified in `package.json`.
 3. Get your **database** up and running.
-    1. Start your database server.
+    1. Start MySQL server
+       * On Mac: Open **Spotlight Search**, type in **mysql**, then choose **mysql.prefPane**,
+       enter your password, and finally hit **Start MySQL Server**
     2. Create schema using `schema.sql`
     3. Add data to your database using `seeds.sql`
     4. Modify port, user, and password in the corresponding `.js` to reflect your credential.
-4. Open **terminal** (on mac) and **run** `bamazonCustomer.js` or `bamazonManager.js` using node.
-5. **Follow instructions** on the console.
+4. Open **terminal** (on mac)
+5. If you wish to see it as a customer, **run** `$ node bamazonCustomer.js` and 
+if you wish to see it as a manager, then **run** `$ node bamazonManager.js`.
+6. **Follow instructions** on the console.
