@@ -9,8 +9,6 @@
 
 <img src="Docs/Images/inventory_table.png" width="600" height="500">
 
-![](Docs/Images/inventory_table.png)
-
 * 2 main apps: `bamazonCustomer.js` and `bamazonManager.js`
 
 # :nut_and_bolt: Tools and Technologies
