@@ -1,7 +1,7 @@
 # :link: Me on GitHub
-* My [profile](https://github.com/ArsalanAtGH)
+* My [profile](https://github.com/Arsalan-Sadri)
   * Repositories, pull requests, commits, and...
-* My [portfolio](https://arsalanatgh.github.io)
+* My [portfolio](https://Arsalan-Sadri.github.io)
   * Deployed projects
 
 # :page_with_curl: Description
