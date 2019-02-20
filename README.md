@@ -24,7 +24,8 @@
   * `Node.js`
 * Modules
   * `inquirer`, `mysql`, `table`
-* APIs: 
+* Templating Engins
+* APIs 
 * Package Manager
   * `npm`
 * Version control
