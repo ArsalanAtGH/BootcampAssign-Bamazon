@@ -16,12 +16,15 @@
   * If you wish to see it as a manager: `bamazonManager.js`
 
 # :nut_and_bolt: Tools and Technologies
-* Editor: `Visual Studio Code`
-* Languages: `(vanilla) JavaScript`
+* Languages, libraries, and frameworks: `JavaScript`
 * DB Server: `MySQL`
 * Runtime Environment: `Node.js`
-* Package Manager: `npm`
 * Modules: `inquirer`, `mysql`, `table`
+* APIs: 
+* Package Manager: `npm`
+* Version control: `Git`
+* Editor: `Visual Studio Code`
+* Operating System: `Mac OS`
 
 # :arrow_forward: Application Deployed
 * See the [application]() up and running via GitHub Pages directly from its depository. 
@@ -43,3 +46,6 @@
 4. Open **terminal** (on mac)
 5. **run** `$ node bamazonCustomer.js` or `$ node bamazonManager.js`, depending on what you wish to do.
 6. **Follow instructions** on the console.
+
+# :key: Technical Highlights
+1. Tabular illustration of data
