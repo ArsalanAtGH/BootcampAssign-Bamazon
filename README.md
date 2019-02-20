@@ -25,7 +25,7 @@
 * Editor: `Visual Studio Code`
 * Operating System: `Mac OS`
 
-# :arrow_forward: Application Deployed
+# :arrow_forward: Deployed Application
 * See the [application]() up and running via GitHub Pages directly from its depository.
 
 
