@@ -1,8 +1,8 @@
 # :link: Me on GitHub
 * My [profile](https://github.com/Arsalan-Sadri)
-  * Repositories, pull requests, commits, and...
+  * All repositories, source codes, READEME.md, pull requests, commits, issues, and...
 * My [portfolio](https://Arsalan-Sadri.github.io)
-  * Deployed projects
+  * Find all deployed applications 
 
 # :page_with_curl: Description
 * A Node.js console application simulating an inventory of miscellaneous items.
@@ -23,12 +23,12 @@
 * Package Manager: `npm`
 * Modules: `inquirer`, `mysql`, `table`
 
-# :arrow_forward: Deployed application
-* [Deployed application]() via GitHub Pages directly from the depository
+# :arrow_forward: Application Deployed
+* See the [application]() up and running via GitHub Pages directly from its depository. 
 
 
 # :tv: Demo
-* To see a demo of this application, click [here](https://youtu.be/jGRjsO4kqg4) 
+* [Here](https://youtu.be/jGRjsO4kqg4) see a short demo of this application on my YouTube channel!
 
 # :wrench: How to Run
 1. **Clone down** the application to your local device.
