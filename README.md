@@ -2,12 +2,12 @@
 * My [profile](https://github.com/Arsalan-Sadri)
   * All repositories, source codes, READMEs, pull requests, commits, issues, and...
 * My [portfolio](https://Arsalan-Sadri.github.io)
-  * Find all deployed applications 
+  * Find all deployed applications. 
 
 # :page_with_curl: Description
-* A Node.js console application simulating an inventory of miscellaneous items
-* Items are stred in MySQL database and illustrated in a table to customers and managers (a screenshot given below)
-* Inventory can be updated and items can be added to and removed from database through command line (console)
+* A Node.js console application simulating an inventory of miscellaneous items.
+* Items are stred in MySQL database and illustrated in a table to customers and managers (a screenshot given below).
+* Inventory can be updated and items can be added to and removed from database through command line (console).
 
 <img src="Docs/Images/inventory_table.png" width="600" height="500">
 
@@ -16,27 +16,19 @@
   * If you wish to see it as a manager: `bamazonManager.js`
 
 # :nut_and_bolt: Tools and Technologies
-* Languages, libraries, and frameworks 
-  * `JavaScript`
-* DB Server
-  * `MySQL`
-* Runtime Environment
-  * `Node.js`
-* Modules
-  * `inquirer`, `mysql`, `table`
+* Languages, libraries, and frameworks: `JavaScript`
+* DB Server: `MySQL`
+* Runtime Environment: `Node.js`
+* Modules: `inquirer`, `mysql`, `table`
 * Templating Engine
-* APIs 
-* Package Manager
-  * `npm`
-* Version control
-  * `Git`
-* Editor
-  * `Visual Studio Code`
-* Operating System
-  * `Mac OS`
+* API  
+* Package Manager: `npm`
+* Version control: `Git`
+* Editor: `Visual Studio Code`
+* Operating System: `Mac OS`
 
 # :arrow_forward: Application Deployed
-* See the [application]() up and running via GitHub Pages directly from its depository 
+* See the [application]() up and running via GitHub Pages directly from its depository.
 
 
 # :tv: Demo
@@ -52,10 +44,10 @@ In order to run the application on your device, follow the instructions given be
        enter your password, and finally hit **Start MySQL Server**
    2. Create schema using `schema.sql`
    3. Add data to your database using `seeds.sql`
-   4. Modify port, user, and password in the corresponding `.js` to reflect your credential
+   4. Modify port, user, and password in the corresponding `.js` to reflect your credential.
 4. Open **terminal** (on mac)
-5. **run** `$ node bamazonCustomer.js` or `$ node bamazonManager.js`, depending on what you wish to do
-6. **Follow instructions** on the console
+5. **run** `$ node bamazonCustomer.js` or `$ node bamazonManager.js`, depending on what you wish to do.
+6. **Follow instructions** on the console.
 
 # :key: Technical Highlights
 1. Tabular illustration of data
