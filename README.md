@@ -16,15 +16,23 @@
   * If you wish to see it as a manager: `bamazonManager.js`
 
 # :nut_and_bolt: Tools and Technologies
-* Languages, libraries, and frameworks: `JavaScript`
-* DB Server: `MySQL`
-* Runtime Environment: `Node.js`
-* Modules: `inquirer`, `mysql`, `table`
+* Languages, libraries, and frameworks 
+  * `JavaScript`
+* DB Server
+  * `MySQL`
+* Runtime Environment
+  * `Node.js`
+* Modules
+  * `inquirer`, `mysql`, `table`
 * APIs: 
-* Package Manager: `npm`
-* Version control: `Git`
-* Editor: `Visual Studio Code`
-* Operating System: `Mac OS`
+* Package Manager
+  * `npm`
+* Version control
+  * `Git`
+* Editor
+  * `Visual Studio Code`
+* Operating System
+  * `Mac OS`
 
 # :arrow_forward: Application Deployed
 * See the [application]() up and running via GitHub Pages directly from its depository. 
