@@ -19,9 +19,7 @@
 * Languages, libraries, and frameworks: `JavaScript`
 * DB Server: `MySQL`
 * Runtime Environment: `Node.js`
-* Modules: `inquirer`, `mysql`, `table`
-* Templating Engine
-* API  
+* Dependencies: `inquirer`, `mysql`, `table`
 * Package Manager: `npm`
 * Version control: `Git`
 * Editor: `Visual Studio Code`
@@ -32,7 +30,7 @@
 
 
 # :tv: Demo
-* [Here](https://youtu.be/jGRjsO4kqg4) see a short demo of this application on my YouTube channel!
+* [Here]() see a short demo of this application on my YouTube channel!
 
 # :wrench: How to Run
 In order to run the application on your device, follow the instructions given below:
@@ -51,3 +49,4 @@ In order to run the application on your device, follow the instructions given be
 
 # :key: Technical Highlights
 1. Tabular illustration of data
+   * ...
