@@ -1,6 +1,6 @@
 # :link: Me on GitHub
 * My [profile](https://github.com/Arsalan-Sadri)
-  * All repositories, source codes, READEMEs, pull requests, commits, issues, and...
+  * All repositories, source codes, READMEs, pull requests, commits, issues, and...
 * My [portfolio](https://Arsalan-Sadri.github.io)
   * Find all deployed applications 
 
