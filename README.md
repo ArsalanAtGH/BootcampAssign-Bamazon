@@ -5,15 +5,13 @@
   * Find all deployed applications. 
 
 # :page_with_curl: Description
-* A Node.js console application simulating an inventory of miscellaneous items.
-* Items are stred in MySQL database and illustrated in a table to customers and managers (a screenshot given below).
-* Inventory can be updated and items can be added to and removed from database through command line (console).
+* A fully-featured Node.js console application simulating a online retail shopping experience like that of Amazon.
+* There is an inventory of miscellaneous items stored in MySQL database.
+* As it can be seen below, items get pulled and displayed in a tabular format to customers and managers.
+* The inventory can be updated and items can be added to and removed from database through command line (console).
 
 <img src="Docs/Images/inventory_table.png" width="600" height="500">
 
-* 2 functionalities:
-  * If you wish to see it as a customer: `bamazonCustomer.js`
-  * If you wish to see it as a manager: `bamazonManager.js`
 
 # :nut_and_bolt: Tools and Technologies
 * Languages, libraries, and frameworks: `JavaScript`
@@ -44,8 +42,10 @@ In order to run the application on your device, follow the instructions given be
    3. Add data to your database using `seeds.sql`
    4. Modify port, user, and password in the corresponding `.js` to reflect your credential.
 4. Open **terminal** (on mac)
-5. **run** `$ node bamazonCustomer.js` or `$ node bamazonManager.js`, depending on what you wish to do.
-6. **Follow instructions** on the console.
+5. There are 2 options:
+  * If you wish to run the app as a customer and do shopping, then : `$ node bamazonCustomer.js`
+  * If you wish to see it as a manager: `$ node bamazonManager.js`
+6. Finally, **follow instructions** on the console to proceed further. 
 
 # :key: Technical Highlights
 1. Tabular illustration of data
